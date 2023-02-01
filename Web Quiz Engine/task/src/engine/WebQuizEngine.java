@@ -1,0 +1,15 @@
+package engine;
+
+import engine.repository.QuizRepository;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class WebQuizEngine {
+    public static QuizRepository quizRepository;
+
+    public static void main(String[] args) {
+        SpringApplication.run(WebQuizEngine.class, args);
+    }
+
+}
